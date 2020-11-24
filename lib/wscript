@@ -1,0 +1,38 @@
+# -*- Mode: python; py-indent-offset: 4; indent-tabs-mode: nil; coding: utf-8; -*-
+
+from waflib.Tools import fc
+
+# def options(opt):
+#     pass
+
+def configure(conf):
+    #configure fortran compiler
+    conf.load('fc')
+
+    conf.find_program(['gfortran', 'g77'], var='FC')
+    conf.fc_flags()
+
+    conf.check_fortran()
+
+def build(bld):
+    fortran_sources = [
+        'src/aalos.for',
+        'src/amsc.for',
+        'src/asorp.for',
+        'src/ata.for'
+    ]
+
+    bld.objects(
+        features = 'fc fcstlib',
+        source = fortran_sources, 
+        fcflags = ['--std=legacy', '-fPIC', '-fno-align-commons'],
+        target = 'if77fortran',
+    )
+
+    bld.objects(
+        export_includes = 'cpp',
+        source = 'cpp/if77.cc', 
+        cxxflags = ['-fPIC'],
+        target = 'if77cpp',
+        use    = ['if77fortran']
+    )

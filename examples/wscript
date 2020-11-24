@@ -1,0 +1,6 @@
+# -*- Mode: python; py-indent-offset: 4; indent-tabs-mode: nil; coding: utf-8; -*-
+
+def build(bld):
+    obj = bld.create_ns3_program('if77-propagation-loss-model-example', ['if77'])
+    obj.source = 'if77-propagation-loss-model-example.cc'
+

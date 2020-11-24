@@ -1,0 +1,293 @@
+digraph g {
+
+graph [
+       rankdir = "LR"
+       ];
+
+"ATA"
+[
+ shape = "record"
+ label = "<f0> ATA\nata.for:1 \l | <AALOS> AALOS: 644 \l | <ANTNA> ANTNA: 374,392 \l | <ASORP> ASORP: 295 \l | <CNLUT> CNLUT: 936,994,1005 \l | <DFRAC> DFRAC: 589 \l | <GANE> GANE: 591,593,676,708,794,820 \l | <PAGE> PAGE: 262,499,560,612,872 \l | <RAIN> RAIN: 652 \l | <RDEMS> RDEMS: 1056,1084,1102 \l | <RYTRA> RYTRA: 327,328,355,356 \l | <SCAT> SCAT: 696,786,809 \l | <SCNTL> SCNTL: 993 \l | <SIG> SIG: 480 \l | <SORB> SORB: 623,627,971,973 \l | <TRCRY> TRCRY: 329,337,353,452,461 \l | <VARDT> VARDT: 831 \l | <VARIB> VARIB: 491 \l | <VARLB> VARLB: 549 \l | <YIKK> YIKK: 935 \l"
+];
+
+
+"AALOS"
+[
+ shape = "record"
+ label = "<f0> AALOS\naalos.for:1 \l | <CNLUT> CNLUT: 616,690,707 \l | <DNTER> DNTER: 223,259 \l | <FDASP> FDASP: 608 \l | <FRNEL> FRNEL: 463,478 \l | <GANE> GANE: 418-438,472 \l | <PAGE> PAGE: 85,564 \l | <RAIN> RAIN: 703 \l | <RECPX> RECPX: 442,481 \l | <SCNTL> SCNTL: 689 \l | <SIG> SIG: 92 \l | <SNTER> SNTER: 267,281 \l | <SORB> SORB: 426 \l | <TABLE> TABLE: 206 \l | <TMESH> TMESH: 286,316,349 \l | <VARDT> VARDT: 518 \l | <YIKK> YIKK: 614 \l"
+];
+
+ 
+"RDEMS"
+[
+ shape = "record"
+ label = "<f0> RDEMS\namsc.for:1"
+ ];
+
+"RECPX"
+[
+ shape = "record"
+ label = "<f0> RECPX\namsc.for:39"
+ ];
+
+"RYTRA"
+[
+ shape = "record"
+ label = "<f0> RYTRA()\namsc.for:182"
+ ];
+
+"TRCRY"
+[
+ shape = "record"
+ label = "<f0> TRCRY()\namsc.for:217"
+ ];
+
+"SCAT"
+[
+ shape = "record"
+ label = "<f0> SCAT\namsc.for:309 \l | <SORB> SORB: 439,442,449,452 \l | <WSCAT> WSCAT: C1062 \l"
+ ];
+
+
+"SCNTL"
+[
+ shape = "record"
+ label = "<f0> SCNTL\nasmc.for::499"
+ ];
+
+"SIG"
+[
+ shape = "record"
+ label = "<f0> SIG\nasmc.for:571"
+ ];
+
+"SORB"
+[
+ shape = "record"
+ label = "<f0> SORB\nasmc.for:616"
+ ];
+
+"TABLE"
+[
+ shape = "record"
+ label = "<f0> TABLE()\nasmc.for:656 \l | <TRMES> TRMES: 671,672 \l"
+ ];
+
+
+"TNTER"
+[
+ shape = "record"
+ label = "<f0> TNTER()\nasmc.for:679 \l | (not used)"
+ ];
+
+"DNTER"
+[
+ shape = "record"
+ label = "<f0> DNTER()\nasmc.for:701"
+ ];
+
+"SNTER"
+[
+ shape = "record"
+ label = "<f0> SNTER()\nasmc.for:720"
+ ];
+
+"TIMBK"
+[
+ shape = "record"
+ label = "<f0> TIMBK\nasmc.for:739"
+ ];
+
+"TRMES"
+[
+ shape = "record"
+ label = "<f0> TRMES\nasmc.for:805"
+ ];
+
+"TMESH"
+[
+ shape = "record"
+ label = "<f0> TMESH\nasmc.for:849"
+ ];
+
+"VARIB"
+[
+ shape = "record"
+ label = "<f0> VARIB\nasmc.for:883"
+ ];
+
+"VARLB"
+[
+ shape = "record"
+ label = "<f0> VARLB\nasmc.for:903 \l | <QVARB> QVARB: 925 \l"
+ ];
+
+
+"VARDT"
+[
+ shape = "record"
+ label = "<f0> VARDT\nasmc.for:948 \l | <COMB> COMB: 956,972,982 \l | <QQVARB> QQVARB: 961,965 \l | <QVARB> QVARB: 964,968 \l | <TIMBK> TIMBK: 975,979 \l | <VZD> VZD: 951,955 \l"
+];
+ 
+
+"VZD"
+[
+ shape = "record"
+ label = "<f0> VZD\nasmc.for:998"
+ ];
+
+"WSCAT"
+[
+ shape = "record"
+ label = "<f0> WSCAT()\nasmc.for:1062"
+ ];
+
+"YIKK"
+[
+ shape = "record"
+ label = "<f0> YIKK\nasmc.for:1097"
+ ];
+
+"ASORP"
+[
+ shape = "record"
+ label = "<f0> ASORP\nasorp.for:1"
+ ];
+
+"COMB"
+[
+ shape = "record"
+ label = "<f0> COMB\nasorp.for:58| <QERFI> 128,131 \l"
+ ];
+
+"CNLUT"
+[
+ shape = "record"
+ label = "<f0> CNLUT\nasorp.for:143"
+ ];
+
+"DFRAC"
+[
+ shape = "record"
+ label = "<f0> DFRAC\nasorp.for:186 \l | <FRNEL> FRNEL: 355,388 \l | <GHBAR> GHBAR: 253,254,379 \l | <PAGE> PAGE: 263,397,419,431,446 \l"
+];
+
+
+"FDASP"
+[
+ shape = "record"
+ label = "<f0> FDASP()\nasorp.for:453"
+ ];
+
+"FRNEL"
+[
+ shape = "record"
+ label = "<f0> FRNEL\nasorp.for:479"
+ ];
+
+"GANE"
+[
+ shape = "record"
+ label = "<f0> GANE\nasorp.for:565"
+ ];
+
+"ANTNA"
+[
+ shape = "record"
+ label = "<f0> ANTNA\nasorp.for:692"
+ ];
+
+"GHBAR"
+[
+ shape = "record"
+ label = "<f0> GHBAR()\nasorp.for:716"
+ ];
+
+"PAGE"
+[
+ shape = "record"
+ label = "<f0> PAGE\nasorp.for:763"
+ ];
+
+"QERFI"
+[
+ shape = "record"
+ label = "<f0> QERFI()\nasorp.for:784"
+ ];
+
+"QVARB"
+[
+ shape = "record"
+ label = "<f0> QVARB\nasorp.for:805"
+ ];
+ 
+
+"QQVARB"
+[
+ shape = "record"
+ label = "<f0> QQVARB\nasorp.for:895"
+ ];
+
+"RAIN"
+[
+ shape = "record"
+ label = "<f0> RAIN\nasorp.for:917"
+ ];
+
+"ATA":PAGE  -> "PAGE":f0;
+"ATA":ASORP -> "ASORP":f0;
+"ATA":RYTRA -> "RYTRA":f0;
+"ATA":TRCRY -> "TRCRY":f0;
+"ATA":ANTNA -> "ANTNA":f0;
+"ATA":SIG   -> "SIG":f0;
+"ATA":VARIB -> "VARIB":f0;
+"ATA":VARLB -> "VARLB":f0;
+"ATA":DFRAC -> "DFRAC":f0;
+"ATA":GANE  -> "GANE":f0;
+"ATA":SORB  -> "SORB":f0;
+"ATA":AALOS -> "AALOS":f0;
+"ATA":RAIN  -> "RAIN":f0;
+"ATA":SCAT  -> "SCAT":f0;
+"ATA":VARDT -> "VARDT":f0;
+"ATA":YIKK  -> "YIKK":f0;
+"ATA":CNLUT -> "CNLUT":f0;
+"ATA":SCNTL -> "SCNTL":f0;
+"ATA":RDEMS -> "RDEMS":f0;
+
+"AALOS":PAGE  -> "PAGE":f0;
+"AALOS":SIG   -> "SIG":f0;
+"AALOS":DNTER -> "DNTER":f0;
+"AALOS":SNTER -> "SNTER":f0;
+"AALOS":TMESH -> "TMESH":f0;
+"AALOS":GANE  -> "GANE":f0;
+"AALOS":SORB  -> "SORB":f0;
+"AALOS":RECPX -> "RECPX":f0;
+"AALOS":FRNEL -> "FRNEL":f0;
+"AALOS":VARDT -> "VARDT":f0;
+"AALOS":FDASP -> "FDASP":f0;
+"AALOS":YIKK  -> "YIKK":f0;
+"AALOS":CNLUT -> "CNLUT":f0;
+"AALOS":SCNTL -> "SCNTL":f0;
+"AALOS":RAIN  -> "RAIN":f0;
+"AALOS":TABLE -> "TABLE":f0;
+
+"SCAT":SORB     -> "SORB":f0;
+"SCAT":WSCAT    -> "WSCAT":f0;
+
+"TABLE":TRMES -> "TRMES":f0
+
+"VARLB":QVARB   -> "QVARB":f0;
+
+"VARDT":VZD -> "VZD":f0;
+"VARDT":COMB -> "COMB":f0;
+"VARDT":QQVARB -> "QQVARB":f0;
+"VARDT":QVARB -> "QVARB":f0;
+"VARDT":TIMBK -> "TIMBK":f0;
+
+"COMB":QERFI -> "QERFI":f0;
+
+"DFRAC":GHBAR -> "GHBAR":f0;
+"DFRAC":PAGE -> "PAGE":f0;
+"DFRAC":FRNEL -> "FRNEL":f0;
+
+}
