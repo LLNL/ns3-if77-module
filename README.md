@@ -8,7 +8,7 @@ propagation loss for ground/air, air/air, ground/satellite, and air/satellite
 systems for frequencies in the 0.1Mhz to 20Ghz.
 
 More details of the If77 propagation model including its uses and limitations 
-can be found in the original If77 [report](lib/docs/Johnson\ and\ Gierhart\ 1978.pdf)
+can be found in the original If77 [report](lib/docs/Johnson%20and%20Gierhart%201978.pdf)
 
 # Building
 
