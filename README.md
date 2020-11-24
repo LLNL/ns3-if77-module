@@ -1,6 +1,19 @@
 # ns-3 if77 module 
 
+The ns-3 if77 module provides an implementation of the ns3::PropagationLossModel
+which uses the If77 propagation model developed by G. D. Gierhart and M. E. 
+Johnson.  The If77 propagation model was developed in the 1970s in order to
+estimate the service coverage for radio systems. It can be used to calculate
+propagation loss for ground/air, air/air, ground/satellite, and air/satellite
+systems for frequencies in the 0.1Mhz to 20Ghz.
+
+More details of the If77 propagation model including its uses and limitations 
+can be found in the original If77 [report](lib/docs/Johnson\ and\ Gierhart\ 1978.pdf)
+
 # Building
+
+This documentation assumes that the reader is familiar with building and working 
+with the ns-3 codebase.
 
 ### Clone if77 module repository
 
@@ -15,7 +28,7 @@ $ git clone git@github.com:LLNL/ns3-if77-module.git if77
 ### Build the if77 module
 
 ```bash
-$ ./waf configure
+$ ./waf configure <options>
 $ ./waf build
 ```
 
@@ -32,7 +45,9 @@ The original if77 library codebase can be found [here](https://github.com/NTIA/i
 
 All contributions to this project must be made under the GPL v2.0 license.
 
-See [LICENSE](LICENSE) and [NOTICE](NOTICE) for details. 
+See [LICENSE](LICENSE) and [NOTICE](NOTICE) for details of the ns-3 if77 module
+license.
+See [LICENSE](lib/LICENSE.md) for details of the NTIA if77 library license. 
 
 SPDX-License-Identifier: GPL-2.0-only
 
