@@ -47,6 +47,7 @@ All contributions to this project must be made under the GPL v2.0 license.
 
 See [LICENSE](LICENSE) and [NOTICE](NOTICE) for details of the ns-3 if77 module
 license.
+
 See [LICENSE](lib/LICENSE.md) for details of the NTIA if77 library license. 
 
 SPDX-License-Identifier: GPL-2.0-only
